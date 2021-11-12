@@ -33,7 +33,7 @@ logger.addHandler(stream_handler)
 """
 setup a parser and define the arguments to be used
 """
-parser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser('wrapper.sh')
 
 # declaring the arguments that could be passed
 parser.add_argument("url", help="the url of the page to fetch", type=str)
