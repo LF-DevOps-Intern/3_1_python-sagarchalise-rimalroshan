@@ -24,7 +24,7 @@ cp -r 3_1_python-sagarchalise-rimalroshan/roshan/* <your_custom_folder>
 
 ### 3. Run the "wrapper.sh" providing the arguments needed.
 
-### Usuage:
+### Usage:
 
 ```bash
 usage: wrapper.sh [-h] [--http_server HTTP_SERVER] [--port PORT] url
@@ -38,3 +38,15 @@ optional arguments:
                         setup an http server if specified. Specify 0 or 1
   --port PORT           port for the server to run
 ```
+
+### Example:
+
+```bash
+$./wrapper.sh https://google.com --http_server 1 --port=1234
+
+```
+
+### Logs:
+
+The logs are stored in a file named "logs" generated inside of current working directory.
+
