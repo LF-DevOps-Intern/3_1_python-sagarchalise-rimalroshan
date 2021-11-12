@@ -1,0 +1,6 @@
+.github
+.venv
+__pycache__
+fetched_data*
+logs
+temp*
