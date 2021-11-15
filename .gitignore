@@ -1,0 +1,6 @@
+.github
+roshan/.venv
+roshan/__pycache__
+roshan/fetched_data*
+roshan/logs
+roshan/temp*
